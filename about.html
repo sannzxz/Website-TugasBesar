@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kopi Kenangan Senja</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">kenangan<span>senja</span>.</a>
+
+    <div class="navbar-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">Tentang Kami</a>
+      <a href="menu.html">Menu</a>
+      <a href="product.html">Produk</a>
+      <a href="contact.html">Kontak</a>
+    </div>
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+   <!-- Shopping Cart start -->
+   <div class="shopping-cart">
+    <div class="cart-item">
+      <img src="img/products/americano.jpeg" alt="Product 1">
+      <div class="item-detail">
+        <h3>Americano</h3>
+        <div class="item-price">IDR 25K</div>
+      </div>
+      <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+    <div class="cart-item">
+      <img src="img/products/breve.jpeg" alt="Product 1">
+      <div class="item-detail">
+        <h3>Breve</h3>
+        <div class="item-price">IDR 20K</div>
+      </div>
+      <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+    <div class="cart-item">
+      <img src="img/products/macchiato.jpeg" alt="Product 1">
+      <div class="item-detail">
+        <h3>Karamel Macchiato</h3>
+        <div class="item-price">IDR 30K</div>
+      </div>
+      <i data-feather="trash-2" class="remove-item"></i>
+    </div>
+  </div>
+  <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>Tentang</span> Kami</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="img/tentang-kami.jpg" alt="Tentang Kami">
+      </div>
+      <div class="content">
+        <h3>Kenapa memilih kopi kami?</h3>
+        <p>Dengan biji kopi pilihan dan teknik penyeduhan yang sempurna, 
+        kami menyajikan cita rasa yang akan membuat Anda ingin kembali lagi dan lagi.</p>
+        <p>Di "kenangan senja", setiap cangkir kopi adalah sebuah cerita. 
+        Biarkan rasa kopi kami menghidupkan kembali momen-momen berharga dalam hidup Anda.</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="credit">
+      <p>Created by <a href="">Ihksan Nurzaman</a>. | &copy; 2024.</p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace()
+  </script>
+
+  <!-- My Javascript -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
